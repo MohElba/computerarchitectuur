@@ -100,7 +100,7 @@ Als voor de kleurweergave per pixel drie bytes nodig zijn (RGB), dan is een tran
 asciimath:[3 \text{Byte} \times 1024 \times 768 \times 30 = 70 MB/_{sec}] 
 
 De EISA bus met 32 bit databus en 8,33MHz kloksnelheid, kon maximaal 33,3MB/s geven. Bovendien moet de bus nog gedeeld worden door andere apparaten, waaronder het geheugen, waarvoor deze snelheid ook onvoldoende zal blijken. De oplossing bestaat erin een nieuw bussysteem te ontwikkelen. Dit zal de PCI-bus (Peripheral Component Interconnect) worden. +
-PCI werd ontwikkeld door Intel, dat verstandig genoeg was om de patenten in het publiek domein te plaatsen, zodat alle fabrikanten randapparatuur konden bouwen, zonder hiervoor rechten te moeten betalen. Intel richtte ook de PCI Special Interest Group op, een industrieconsortium dat dat de toekomst van de PCI-bus moest regelen. 
+PCI werd ontwikkeld door Intel, dat verstandig genoeg was om de patenten in het publiek domein te plaatsen, zodat alle fabrikanten randapparatuur konden bouwen, zonder hiervoor rechten te moeten betalen. Intel richtte ook de PCI Special Interest Group op, een industrieconsortium dat de toekomst van de PCI-bus moest regelen. 
 Belangrijke eisen bij de ontwikkeling van PCI zijn onder andere: 
 
 *	zorgen voor voldoende bandbreedte, ook naar het geheugen 
