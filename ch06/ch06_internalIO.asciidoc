@@ -47,7 +47,7 @@ Deze uiteenzetting zou duidelijk moeten maken dat de reactie van de processor op
 
 =====	Interrupts op bussystemen
 Op de ISA bus (voorganger van PCI) waren interrupts vast gelinkt op een bepaalde IRQ. Dit moest ingesteld worden met jumpers en vroeg enige zorg, want een IRQ kon slechts door één apparaat gebruikt worden. +
-Om het gebruiksgemak te verhogen werd bij de PCI bus gebruikt gemaakt van een buscontroller die de PCI bus afschermt van de processor.  +
+Om het gebruiksgemak te verhogen werd bij de PCI bus gebruikgemaakt van een buscontroller die de PCI bus afschermt van de processor.  +
 Een manier om op PCI een interrupt te genereren is het versturen van een speciaal interrupt bericht naar de bus controller. Dit bericht bevat de nodige informatie over het type en de bron van de interrupt. De bus controller vertaalt dit dan naar een IRQ voor de processor. +
 Op de PCI bus kunnen ook een aantal interruptlijnen beschikbaar zijn, die gedeeld kunnen worden tussen verschillende apparaten. Een interrupt op deze lijnen wordt dan door de controller vertaald naar een signaal dat uiteindelijk doorgegeven wordt aan de processor. Op die manier kunnen apparaten ook hetzelfde IRQ nummer delen.
 
