@@ -96,18 +96,18 @@ Er onderscheiden zich vier types van pakketten.
 
 * Start-of-frame: geeft het begin aan van een nieuw frame inclusief een 11 bit frame nummer.
 * Token: het token geeft de richting aan van de pakketten. 
-** IN:: informeert het toestel dat de host iets wil ontvangen
-** OUT:: informeert het toestel dat de host iets wil versturen
-** SETUP:: wordt gebruikt om een transfer te starten.
+- IN: informeert het toestel dat de host iets wil ontvangen
+- OUT: informeert het toestel dat de host iets wil versturen
+- SETUP: wordt gebruikt om een transfer te starten.
 * Handshake
-** ACK:: geeft een bevestiging dat de info correct werd ontvangen
-** NAK:: geeft aan dat het toestel eventjes geen data kan zenden of ontvangen, of dat er geen data beschikbaar is op dit moment.
-** STALL:: het toestel bevindt zich in een staat waarin de host actie moet ondernemen.
+- ACK: geeft een bevestiging dat de info correct werd ontvangen
+- NAK: geeft aan dat het toestel eventjes geen data kan zenden of ontvangen, of dat er geen data beschikbaar is op dit moment.
+- STALL: het toestel bevindt zich in een staat waarin de host actie moet ondernemen.
 * Data: bevat maximum 1024 bytes aan data. Er zijn ook verschillende subtypes:
-** Data0
-** Data1
-** Data2 (enkel bij high-speed)
-** MDATA (enkel bij high-speed)
+- Data0
+- Data1
+- Data2 (enkel bij high-speed)
+- MDATA (enkel bij high-speed)
 
 Aanvullende uitleg en verdere verduidelijking vind je op http://www.beyondlogic.org/usbnutshell/usb3.shtml#USBPacketTypes 
 
