@@ -461,7 +461,7 @@ Boomvormige directorystructuren hebben echter ook hun nadelen:
 
 . men zal het concept van `huidige directory' moeten invoeren om te weten in welke directory men aan het werken is, 
 . om bestanden terug te vinden kan men in verscheidene directories moeten gaan kijken, en soms wil men hierbij een bepaalde volgorde kiezen (PATH), 
-. er moeten voorzieningen getroffen worden om bepaalde bestanden in meer dan één directory op te nemen zonder deze te moeten kopiën of telkens opnieuw de volledige padnaam te moeten ingeven.
+. er moeten voorzieningen getroffen worden om bepaalde bestanden in meer dan één directory op te nemen zonder deze te moeten kopiëren of telkens opnieuw de volledige padnaam te moeten ingeven.
 
 Om aan dit euvel te verhelpen bestaan er directorystructuren die kunnen voorgesteld worden door een acyclische graaf die zal toelaten dat een bepaald bestand in twee subdirectories voorkomt.
 
